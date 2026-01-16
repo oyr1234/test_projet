@@ -1,0 +1,12 @@
+2026-01-16 20:38:10 - INFO - ========== TC-054: Performance Patients Load ==========
+2026-01-16 20:38:21 - INFO - ========== TC-055: Performance Ordonnances Load ==========
+2026-01-16 20:38:33 - INFO - ========== TC-056: Performance Medicaments Load ==========
+2026-01-16 20:38:36 - INFO - Temps de chargement Médicaments: 3.19s
+2026-01-16 20:38:36 - WARNING - ⚠️ TC-056: 3.19s >= 2s
+2026-01-16 20:38:47 - INFO - ========== TC-057: Compatibility Chrome ==========
+2026-01-16 20:38:47 - INFO - ✅ TC-057 PASSED: Test exécuté sur chrome
+2026-01-16 20:38:57 - INFO - ========== TC-058: Compatibility Firefox ==========
+2026-01-16 20:38:57 - INFO - ✅ TC-058 SKIPPED: Firefox tests nécessitent conftest config
+2026-01-16 20:39:08 - INFO - ========== TC-059: Security SQL Injection ==========
+2026-01-16 20:39:31 - INFO - ========== TC-060: Accessibility WCAG ==========
+2026-01-16 20:39:31 - INFO - ✅ TC-060 SKIPPED: Tests accessibilité nécessitent axe-core

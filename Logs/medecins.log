@@ -1,0 +1,10 @@
+2026-01-16 18:46:25 - INFO - ========== TC-017: Display Medecins List ==========
+2026-01-16 18:46:28 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-16 18:46:39 - INFO - ========== TC-018: Create Medecin Valid ==========
+2026-01-16 18:46:51 - INFO - ========== TC-019: Create Medecin Empty Nom ==========
+2026-01-16 18:47:03 - INFO - ========== TC-020: Edit Medecin ==========
+2026-01-16 18:47:03 - INFO - ✅ TC-020 SKIPPED: Modification non testée
+2026-01-16 18:47:13 - INFO - ========== TC-021: Delete Medecin ==========
+2026-01-16 18:47:13 - INFO - ✅ TC-021 SKIPPED: Suppression requiert confirmation modal
+2026-01-16 18:47:23 - INFO - ========== TC-022: View Medecin Details ==========
+2026-01-16 18:47:23 - INFO - ✅ TC-022 SKIPPED

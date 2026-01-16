@@ -1,0 +1,9 @@
+2026-01-16 18:50:22 - INFO - ========== TC-033: Display Medicaments List ==========
+2026-01-16 18:50:26 - INFO - ✅ TC-033 PASSED: 2 médicaments affichés
+2026-01-16 18:50:37 - INFO - ========== TC-034: Create Medicament Valid ==========
+2026-01-16 18:50:49 - INFO - ========== TC-035: Create Medicament Empty Nom ==========
+2026-01-16 18:51:00 - INFO - ========== TC-036: Create Medicament Invalid Prix ==========
+2026-01-16 18:51:11 - INFO - ========== TC-037: Edit Medicament ==========
+2026-01-16 18:51:11 - INFO - ✅ TC-037 SKIPPED
+2026-01-16 18:51:22 - INFO - ========== TC-038: Delete Medicament ==========
+2026-01-16 18:51:22 - INFO - ✅ TC-038 SKIPPED

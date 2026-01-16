@@ -1,0 +1,10 @@
+2026-01-16 18:43:49 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-16 18:44:02 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-16 18:44:26 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-16 18:44:49 - INFO - ========== TC-013: Invalid CIN ==========
+2026-01-16 18:45:12 - INFO - ========== TC-014: Edit Patient ==========
+2026-01-16 18:45:12 - INFO - ✅ TC-014 SKIPPED: Modification non testée
+2026-01-16 18:45:22 - INFO - ========== TC-015: Delete Patient ==========
+2026-01-16 18:45:28 - INFO - ✅ TC-015 SKIPPED: Confirmation modal requise
+2026-01-16 18:45:38 - INFO - ========== TC-016: View Details ==========
+2026-01-16 18:45:38 - INFO - ✅ TC-016 SKIPPED

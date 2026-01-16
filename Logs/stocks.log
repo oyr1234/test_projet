@@ -1,0 +1,8 @@
+2026-01-16 20:31:33 - INFO - ========== TC-049: Display Stocks List ==========
+2026-01-16 20:31:36 - INFO - ✅ TC-049 PASSED: Liste stocks affichée
+2026-01-16 20:31:46 - INFO - ========== TC-050: Create Stock Valid ==========
+2026-01-16 20:31:58 - INFO - ========== TC-051: Create Stock Negative Quantity ==========
+2026-01-16 20:32:10 - INFO - ========== TC-052: Edit Stock ==========
+2026-01-16 20:32:10 - INFO - ✅ TC-052 SKIPPED
+2026-01-16 20:32:20 - INFO - ========== TC-053: Delete Stock ==========
+2026-01-16 20:32:20 - INFO - ✅ TC-053 SKIPPED

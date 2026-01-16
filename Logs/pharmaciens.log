@@ -1,0 +1,8 @@
+2026-01-16 18:47:46 - INFO - ========== TC-023: Display Pharmaciens List ==========
+2026-01-16 18:47:50 - INFO - ✅ TC-023 PASSED: Liste pharmaciens affichée
+2026-01-16 18:48:00 - INFO - ========== TC-024: Create Pharmacien Valid ==========
+2026-01-16 18:48:12 - INFO - ========== TC-025: Create Pharmacien Empty Field ==========
+2026-01-16 18:48:24 - INFO - ========== TC-026: Edit Pharmacien ==========
+2026-01-16 18:48:24 - INFO - ✅ TC-026 SKIPPED
+2026-01-16 18:48:34 - INFO - ========== TC-027: Delete Pharmacien ==========
+2026-01-16 18:48:34 - INFO - ✅ TC-027 SKIPPED

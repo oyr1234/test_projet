@@ -1,0 +1,18 @@
+2026-01-16 17:12:10 - INFO - ========== TC-007: Display Home ==========
+2026-01-16 17:12:20 - ERROR - ❌ TC-007 FAILED
+2026-01-16 17:12:32 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-16 17:12:53 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-16 20:39:53 - INFO - ========== TC-061: API POST Login ==========
+2026-01-16 20:39:53 - ERROR - ❌ TC-061 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Account/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:39:59 - INFO - ========== TC-062: API GET Patients ==========
+2026-01-16 20:40:00 - ERROR - ❌ TC-062 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:40:05 - INFO - ========== TC-063: API POST Patients ==========
+2026-01-16 20:40:05 - ERROR - ❌ TC-063 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:40:10 - INFO - ========== TC-064: API GET Medecins ==========
+2026-01-16 20:40:11 - ERROR - ❌ TC-064 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medecins (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:40:16 - INFO - ========== TC-065: API GET Medicaments ==========
+2026-01-16 20:40:17 - ERROR - ❌ TC-065 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medicaments (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:40:23 - INFO - ========== TC-066: API GET Ordonnances ==========
+2026-01-16 20:40:24 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-16 20:40:29 - INFO - ========== TC-067: API POST Ordonnances ==========
+2026-01-16 20:40:29 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))

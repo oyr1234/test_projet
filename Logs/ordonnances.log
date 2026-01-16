@@ -1,0 +1,17 @@
+2026-01-16 20:29:00 - INFO - ========== TC-039: Display Ordonnances List ==========
+2026-01-16 20:29:03 - INFO - ✅ TC-039 PASSED: Liste ordonnances affichée
+2026-01-16 20:29:14 - INFO - ========== TC-040: Create Ordonnance Complete ==========
+2026-01-16 20:29:19 - INFO - ✅ TC-040 SKIPPED: Création complète nécessite données pré-existantes
+2026-01-16 20:29:29 - INFO - ========== TC-041: Create Ordonnance Without Patient ==========
+2026-01-16 20:29:55 - INFO - ========== TC-042: Add Ligne Quantity Valid ==========
+2026-01-16 20:29:55 - INFO - ✅ TC-042 SKIPPED: Requiert ordonnance existante
+2026-01-16 20:30:05 - INFO - ========== TC-043: Add Ligne Quantity Zero ==========
+2026-01-16 20:30:20 - INFO - ========== TC-044: Add Ligne Quantity Negative ==========
+2026-01-16 20:30:35 - INFO - ========== TC-045: Delete Ligne Ordonnance ==========
+2026-01-16 20:30:35 - INFO - ✅ TC-045 SKIPPED
+2026-01-16 20:30:45 - INFO - ========== TC-046: View Ordonnance Details ==========
+2026-01-16 20:30:45 - INFO - ✅ TC-046 SKIPPED
+2026-01-16 20:30:55 - INFO - ========== TC-047: Edit Ordonnance ==========
+2026-01-16 20:30:55 - INFO - ✅ TC-047 SKIPPED
+2026-01-16 20:31:05 - INFO - ========== TC-048: Delete Ordonnance ==========
+2026-01-16 20:31:05 - INFO - ✅ TC-048 SKIPPED
