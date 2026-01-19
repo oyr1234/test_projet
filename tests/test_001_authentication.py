@@ -28,6 +28,15 @@ class Test_002_Dashboard:
         yield
         
         self.driver.close()
+    @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+    def pytest_runtest_makereport(self, item, call):
+        outcome = yield
+        rep = outcome.get_result()
+        if rep.when == "call" and rep.failed:
+            test_name = item.name
+            filepath = f"./Screenshots/{test_name}.png"
+            self.driver.save_screenshot(filepath)
+            print(f"💾 Screenshot saved: {filepath}")
     
     @pytest.mark.P0
     def test_TC007_display_home_after_login(self):
@@ -38,6 +47,7 @@ class Test_002_Dashboard:
         
         if dashboardPage.is_dashboard_displayed():
             self.logger.log_info("✅ TC-007 PASSED")
+            
             assert True
         else:
             self.logger.log_error("❌ TC-007 FAILED")
@@ -68,4 +78,4 @@ class Test_002_Dashboard:
             assert True
         else:
             self.logger.log_warning("⚠️ TC-009: Statistiques non trouvées")
-            assert True  # Pas bloquant
+            assert True  # Pas bloquan

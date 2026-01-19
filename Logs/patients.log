@@ -8,3 +8,34 @@
 2026-01-16 18:45:28 - INFO - ✅ TC-015 SKIPPED: Confirmation modal requise
 2026-01-16 18:45:38 - INFO - ========== TC-016: View Details ==========
 2026-01-16 18:45:38 - INFO - ✅ TC-016 SKIPPED
+2026-01-19 16:10:15 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-19 16:10:27 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-19 16:10:54 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-19 16:15:43 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-19 16:15:55 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-19 16:16:08 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-19 16:16:19 - INFO - ========== TC-013: Invalid CIN ==========
+2026-01-19 16:16:38 - INFO - ========== TC-014: Edit Patient ==========
+2026-01-19 16:16:38 - INFO - ✅ TC-014 SKIPPED: Modification non testée
+2026-01-19 16:16:48 - INFO - ========== TC-015: Delete Patient ==========
+2026-01-19 16:17:00 - INFO - ========== TC-016: View Details ==========
+2026-01-19 16:17:00 - INFO - ✅ TC-016 SKIPPED
+2026-01-19 16:21:50 - INFO - TC-010: Display Patients List
+2026-01-19 16:22:20 - INFO - TC-011: Create Patient Valid
+2026-01-19 16:23:32 - INFO - TC-012: Create Patient Empty Nom
+2026-01-19 16:24:06 - INFO - TC-013: Create Patient Invalid CIN
+2026-01-19 16:43:12 - INFO - TC-010: Display Patients Page
+2026-01-19 16:47:37 - INFO - TC-010: Display Patients Page
+2026-01-19 16:48:06 - INFO - TC-011: Display list or empty state
+2026-01-19 16:48:45 - INFO - TC-012: Navigate to Create Patient
+2026-01-19 16:49:14 - INFO - TC-013: View Patient Details
+2026-01-19 16:49:55 - INFO - TC-014: Edit Patient Navigation
+2026-01-19 20:02:44 - INFO - TC-010: Display Patients Page
+2026-01-19 20:03:38 - INFO - TC-011: Display list or empty state
+2026-01-19 20:04:26 - INFO - TC-012: Navigate to Create Patient
+2026-01-19 20:05:04 - INFO - TC-013: View Patient Details
+2026-01-19 20:05:54 - INFO - TC-014: Edit Patient Navigation
+2026-01-19 20:27:18 - INFO - TC-010: Display Patients Page
+2026-01-19 20:27:57 - INFO - TC-011: Display list or empty state
+2026-01-19 20:28:46 - INFO - TC-012: Navigate to Create Patient
+2026-01-19 20:29:25 - INFO - TC-013: View Patient Details

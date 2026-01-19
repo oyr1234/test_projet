@@ -36,22 +36,19 @@ def pytest_runtest_makereport(item, call):
     rep = outcome.get_result()
     setattr(item, "rep_" + rep.when, rep)
 
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    # run all other hooks to get the report object
+    outcome = yield
+    rep = outcome.get_result()
 
-@pytest.fixture(autouse=True)
-def screenshot_on_failure(request, setup):
-    """
-    Prendre automatiquement un screenshot si le test échoue,
-    similaire à ce que tu faisais en appelant save_screenshot dans test_002/test_003. [file:15][file:16]
-    """
-    yield
-    driver = setup
-    if request.node.rep_call.failed:
-        screenshots_dir = os.path.join("tests", "screenshots")
-        if not os.path.exists(screenshots_dir):
-            os.makedirs(screenshots_dir)
+    # Only take screenshot on failure of the test itself (not setup/teardown)
+    if rep.when == "call" and rep.failed:
+        driver = item.funcargs.get("setup")  # get the fixture driver
+        if driver:
+            os.makedirs("./Screenshots", exist_ok=True)
+            test_name = item.name
+            filepath = f"./Screenshots/{test_name}.png"
+            driver.save_screenshot(filepath)
+            print(f"💾 Screenshot saved: {filepath}")
 
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        test_name = request.node.name
-        file_path = os.path.join(screenshots_dir, f"{test_name}_{timestamp}.png")
-        driver.save_screenshot(file_path)
-        print(f"\n📸 Screenshot enregistré : {file_path}")

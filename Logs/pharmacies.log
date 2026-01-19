@@ -6,3 +6,11 @@
 2026-01-16 18:49:38 - INFO - ✅ TC-031 SKIPPED
 2026-01-16 18:49:48 - INFO - ========== TC-032: Delete Pharmacie ==========
 2026-01-16 18:49:48 - INFO - ✅ TC-032 SKIPPED
+2026-01-19 21:31:00 - INFO - ========== TC-028: Display Pharmacies List ==========
+2026-01-19 21:31:04 - INFO - ✅ TC-028 PASSED: Liste pharmacies affichée
+2026-01-19 21:31:34 - INFO - ========== TC-029: Create Pharmacie Valid ==========
+2026-01-19 21:31:58 - INFO - ========== TC-030: Create Pharmacie Empty Field ==========
+2026-01-19 21:32:37 - INFO - ========== TC-031: Edit Pharmacie ==========
+2026-01-19 21:32:37 - INFO - ✅ TC-031 SKIPPED
+2026-01-19 21:32:59 - INFO - ========== TC-032: Delete Pharmacie ==========
+2026-01-19 21:32:59 - INFO - ✅ TC-032 SKIPPED

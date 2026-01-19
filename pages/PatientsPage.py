@@ -1,70 +1,67 @@
 from selenium.webdriver.common.by import By
-from pages.BasePage import BasePage
 from time import sleep
 
-class PatientsPage(BasePage):
-    """
-    Page Object Model pour Patients
-    """
-    
+
+class PatientsPage:
+
     # Navigation
-    MENU_PATIENTS = (By.LINK_TEXT, "Patients")
-    
-    # Liste
-    TABLE_PATIENTS = (By.TAG_NAME, "table")
+    MENU_PATIENTS = (By.XPATH, "//a[normalize-space()='Patients']")
+
+    # Page
+    TITLE = (By.XPATH, "//h3[normalize-space()='Patients']")
+    CREATE_BUTTON = (By.XPATH, "//button[normalize-space()='Créer patient']")
+
+    # Table
+    TABLE = (By.XPATH, "//table")
+    EMPTY_ROW = (By.XPATH, "//td[contains(text(),'Aucun patient')]")
     TABLE_ROWS = (By.XPATH, "//table/tbody/tr")
-    BUTTON_CREATE = (By.XPATH, "//button[contains(text(),'Créer patient')]")
-    
-    # Formulaire création/modification
-    INPUT_NOM = (By.ID, "nom")  # à adapter
-    INPUT_PRENOM = (By.ID, "prenom")
-    INPUT_CIN = (By.ID, "cin")
-    INPUT_ADRESSE = (By.ID, "adresse")
-    BUTTON_SUBMIT = (By.XPATH, "//button[contains(text(),'Create Patient')]")
-    BUTTON_CANCEL = (By.XPATH, "//button[contains(text(),'Cancel')]")
-    
-    # Actions sur ligne
-    BUTTON_EDIT_FIRST = (By.XPATH, "(//button[contains(text(),'Edit')])[1]")
-    BUTTON_DELETE_FIRST = (By.XPATH, "(//button[contains(text(),'Supprimer')])[1]")
-    BUTTON_DETAILS_FIRST = (By.XPATH, "(//button[contains(text(),'Détails')])[1]")
-    
+
+    # Row actions
+    DETAILS_BTN = (By.XPATH, "(//button[normalize-space()='Détails'])[1]")
+    EDIT_BTN = (By.XPATH, "(//button[normalize-space()='Edit'])[1]")
+    DELETE_BTN = (By.XPATH, "(//button[normalize-space()='Supprimer'])[1]")
+
+    # Modal
+    MODAL = (By.XPATH, "//div[contains(@class,'modal-content')]")
+    MODAL_CLOSE = (By.XPATH, "//button[contains(@class,'btn-close') or text()='Fermer']")
+
     def __init__(self, driver):
-        super().__init__(driver)
-    
+        self.driver = driver
+
+    # Navigation
     def navigate_to_patients(self):
-        """Naviguer vers la page Patients"""
-        self.click_element(self.MENU_PATIENTS)
+        self.driver.find_element(*self.MENU_PATIENTS).click()
         sleep(1)
-    
+
+    # Page checks
     def is_table_displayed(self):
-        """Vérifier si le tableau est affiché"""
-        return self.is_element_present(self.TABLE_PATIENTS)
-    
+        return self.driver.find_element(*self.TABLE).is_displayed()
+
+    # Patients count
     def get_patients_count(self):
-        """Compter le nombre de patients affichés"""
-        rows = self.driver.find_elements(*self.TABLE_ROWS)
-        return len(rows)
-    
+        if self.driver.find_elements(*self.EMPTY_ROW):
+            return 0
+        return len(self.driver.find_elements(*self.TABLE_ROWS))
+
+    # Create
     def click_create_patient(self):
-        """Cliquer sur bouton Créer patient"""
-        self.click_element(self.BUTTON_CREATE)
+        self.driver.find_element(*self.CREATE_BUTTON).click()
+
+    # Details
+    def click_details_first_patient(self):
+        self.driver.find_element(*self.DETAILS_BTN).click()
         sleep(1)
-    
-    def create_patient(self, nom, prenom, cin, adresse):
-        """Créer un patient complet"""
-        self.send_keys_to_element(self.INPUT_NOM, nom)
-        self.send_keys_to_element(self.INPUT_PRENOM, prenom)
-        self.send_keys_to_element(self.INPUT_CIN, cin)
-        self.send_keys_to_element(self.INPUT_ADRESSE, adresse)
-        self.click_element(self.BUTTON_SUBMIT)
-        sleep(2)
-    
+
+    def is_details_modal_displayed(self):
+        return self.driver.find_element(*self.MODAL).is_displayed()
+
+    def close_details_modal(self):
+        self.driver.find_element(*self.MODAL_CLOSE).click()
+
+    # Edit
     def click_edit_first_patient(self):
-        """Modifier le premier patient"""
-        self.click_element(self.BUTTON_EDIT_FIRST)
-        sleep(1)
-    
+        self.driver.find_element(*self.EDIT_BTN).click()
+
+    # Delete
     def click_delete_first_patient(self):
-        """Supprimer le premier patient"""
-        self.click_element(self.BUTTON_DELETE_FIRST)
-        sleep(1)
+        self.driver.find_element(*self.DELETE_BTN).click()

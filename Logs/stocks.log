@@ -6,3 +6,25 @@
 2026-01-16 20:32:10 - INFO - ✅ TC-052 SKIPPED
 2026-01-16 20:32:20 - INFO - ========== TC-053: Delete Stock ==========
 2026-01-16 20:32:20 - INFO - ✅ TC-053 SKIPPED
+2026-01-19 15:51:05 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 15:51:05 - INFO - ✅ TC-007 PASSED
+2026-01-19 15:51:16 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 15:51:16 - INFO - ✅ TC-008 PASSED
+2026-01-19 15:51:28 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 15:51:28 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 15:51:39 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 15:51:39 - INFO - ✅ TC-007 PASSED
+2026-01-19 15:51:49 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 15:51:49 - INFO - ✅ TC-008 PASSED
+2026-01-19 15:52:01 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 15:52:01 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 15:52:12 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-19 15:52:24 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-19 15:52:49 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-19 15:53:13 - INFO - ========== TC-013: Invalid CIN ==========
+2026-01-19 15:53:37 - INFO - ========== TC-014: Edit Patient ==========
+2026-01-19 15:53:37 - INFO - ✅ TC-014 SKIPPED: Modification non testée
+2026-01-19 15:53:48 - INFO - ========== TC-015: Delete Patient ==========
+2026-01-19 15:54:11 - INFO - ========== TC-016: View Details ==========
+2026-01-19 15:54:11 - INFO - ✅ TC-016 SKIPPED
+2026-01-19 15:54:23 - INFO - ========== TC-017: Display Medecins List ==========

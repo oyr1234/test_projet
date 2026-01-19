@@ -28,6 +28,15 @@ class Test_002_Dashboard:
         yield
         
         self.driver.close()
+    @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+    def pytest_runtest_makereport(self, item, call):
+        outcome = yield
+        rep = outcome.get_result()
+        if rep.when == "call" and rep.failed:
+            test_name = item.name
+            filepath = f"./Screenshots/{test_name}.png"
+            self.driver.save_screenshot(filepath)
+            print(f"💾 Screenshot saved: {filepath}")
     
     @pytest.mark.P0
     def test_TC007_display_home_after_login(self):

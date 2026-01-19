@@ -8,3 +8,49 @@
 2026-01-16 18:47:13 - INFO - ✅ TC-021 SKIPPED: Suppression requiert confirmation modal
 2026-01-16 18:47:23 - INFO - ========== TC-022: View Medecin Details ==========
 2026-01-16 18:47:23 - INFO - ✅ TC-022 SKIPPED
+2026-01-19 17:00:23 - INFO - TC-017: Display Medecins List
+2026-01-19 17:00:25 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 17:00:54 - INFO - TC-018: Create Medecin Valid
+2026-01-19 17:01:51 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-19 17:03:41 - INFO - TC-017: Display Medecins List
+2026-01-19 17:03:44 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 17:04:11 - INFO - TC-018: Create Medecin Valid
+2026-01-19 17:12:06 - INFO - TC-017: Display Medecins List
+2026-01-19 17:12:08 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 17:12:35 - INFO - TC-018: Create Medecin Valid
+2026-01-19 17:13:23 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-19 17:14:10 - INFO - TC-020: Edit Medecin SKIPPED
+2026-01-19 17:14:37 - INFO - TC-021: Delete Medecin SKIPPED
+2026-01-19 17:15:04 - INFO - TC-022: View Medecin Details SKIPPED
+2026-01-19 18:30:18 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 18:30:18 - INFO - ✅ TC-007 PASSED
+2026-01-19 18:30:28 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 18:30:28 - INFO - ✅ TC-008 PASSED
+2026-01-19 18:30:39 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 18:30:39 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 18:30:50 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 18:30:50 - INFO - ✅ TC-007 PASSED
+2026-01-19 18:31:01 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 18:31:01 - INFO - ✅ TC-008 PASSED
+2026-01-19 18:31:11 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 18:31:11 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 18:31:22 - INFO - TC-010: Display Patients Page
+2026-01-19 18:31:50 - INFO - TC-011: Display list or empty state
+2026-01-19 18:32:29 - INFO - TC-012: Navigate to Create Patient
+2026-01-19 18:32:58 - INFO - TC-013: View Patient Details
+2026-01-19 18:33:38 - INFO - TC-014: Edit Patient Navigation
+2026-01-19 18:35:39 - INFO - TC-017: Display Medecins List
+2026-01-19 18:35:41 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 18:36:09 - INFO - TC-018: Create Medecin Valid
+2026-01-19 18:36:56 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-19 18:37:10 - ERROR - ❌ TC-019 FAILED: Form submitted with empty nom
+2026-01-19 18:37:55 - INFO - TC-020: Edit Medecin SKIPPED
+2026-01-19 18:38:23 - INFO - TC-021: Delete Medecin SKIPPED
+2026-01-19 18:38:50 - INFO - TC-022: View Medecin Details SKIPPED
+2026-01-19 20:35:06 - INFO - TC-017: Display Medecins List
+2026-01-19 20:35:48 - INFO - TC-018: Create Medecin Valid
+2026-01-19 20:36:29 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-19 20:36:44 - ERROR - ❌ TC-019 FAILED: Form submitted with empty nom
+2026-01-19 20:37:22 - INFO - TC-020: Edit Medecin SKIPPED
+2026-01-19 20:37:59 - INFO - TC-021: Delete Medecin SKIPPED
+2026-01-19 20:38:37 - INFO - TC-022: View Medecin Details SKIPPED

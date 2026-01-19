@@ -16,3 +16,337 @@
 2026-01-16 20:40:24 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
 2026-01-16 20:40:29 - INFO - ========== TC-067: API POST Ordonnances ==========
 2026-01-16 20:40:29 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:25:01 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 10:25:01 - INFO - ✅ TC-007 PASSED
+2026-01-19 10:25:13 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 10:25:13 - INFO - ✅ TC-008 PASSED
+2026-01-19 10:25:26 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 10:25:26 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 10:25:39 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 10:25:39 - INFO - ✅ TC-007 PASSED
+2026-01-19 10:25:52 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 10:25:52 - INFO - ✅ TC-008 PASSED
+2026-01-19 10:26:06 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 10:26:06 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 10:26:19 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-19 10:26:31 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-19 10:26:55 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-19 10:27:18 - INFO - ========== TC-013: Invalid CIN ==========
+2026-01-19 10:27:41 - INFO - ========== TC-014: Edit Patient ==========
+2026-01-19 10:27:41 - INFO - ✅ TC-014 SKIPPED: Modification non testée
+2026-01-19 10:27:52 - INFO - ========== TC-015: Delete Patient ==========
+2026-01-19 10:27:58 - INFO - ✅ TC-015 SKIPPED: Confirmation modal requise
+2026-01-19 10:28:09 - INFO - ========== TC-016: View Details ==========
+2026-01-19 10:28:09 - INFO - ✅ TC-016 SKIPPED
+2026-01-19 10:28:19 - INFO - ========== TC-017: Display Medecins List ==========
+2026-01-19 10:28:22 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 10:28:33 - INFO - ========== TC-018: Create Medecin Valid ==========
+2026-01-19 10:28:45 - INFO - ========== TC-019: Create Medecin Empty Nom ==========
+2026-01-19 10:28:56 - INFO - ========== TC-020: Edit Medecin ==========
+2026-01-19 10:28:56 - INFO - ✅ TC-020 SKIPPED: Modification non testée
+2026-01-19 10:29:07 - INFO - ========== TC-021: Delete Medecin ==========
+2026-01-19 10:29:07 - INFO - ✅ TC-021 SKIPPED: Suppression requiert confirmation modal
+2026-01-19 10:29:17 - INFO - ========== TC-022: View Medecin Details ==========
+2026-01-19 10:29:17 - INFO - ✅ TC-022 SKIPPED
+2026-01-19 10:29:27 - INFO - ========== TC-023: Display Pharmaciens List ==========
+2026-01-19 10:29:30 - INFO - ✅ TC-023 PASSED: Liste pharmaciens affichée
+2026-01-19 10:29:40 - INFO - ========== TC-024: Create Pharmacien Valid ==========
+2026-01-19 10:29:52 - INFO - ========== TC-025: Create Pharmacien Empty Field ==========
+2026-01-19 10:30:03 - INFO - ========== TC-026: Edit Pharmacien ==========
+2026-01-19 10:30:03 - INFO - ✅ TC-026 SKIPPED
+2026-01-19 10:30:13 - INFO - ========== TC-027: Delete Pharmacien ==========
+2026-01-19 10:30:13 - INFO - ✅ TC-027 SKIPPED
+2026-01-19 10:30:24 - INFO - ========== TC-028: Display Pharmacies List ==========
+2026-01-19 10:30:27 - INFO - ✅ TC-028 PASSED: Liste pharmacies affichée
+2026-01-19 10:30:37 - INFO - ========== TC-029: Create Pharmacie Valid ==========
+2026-01-19 10:30:49 - INFO - ========== TC-030: Create Pharmacie Empty Field ==========
+2026-01-19 10:31:01 - INFO - ========== TC-031: Edit Pharmacie ==========
+2026-01-19 10:31:01 - INFO - ✅ TC-031 SKIPPED
+2026-01-19 10:31:11 - INFO - ========== TC-032: Delete Pharmacie ==========
+2026-01-19 10:31:11 - INFO - ✅ TC-032 SKIPPED
+2026-01-19 10:31:22 - INFO - ========== TC-033: Display Medicaments List ==========
+2026-01-19 10:31:25 - INFO - ✅ TC-033 PASSED: 2 médicaments affichés
+2026-01-19 10:31:36 - INFO - ========== TC-034: Create Medicament Valid ==========
+2026-01-19 10:31:48 - INFO - ========== TC-035: Create Medicament Empty Nom ==========
+2026-01-19 10:32:01 - INFO - ========== TC-036: Create Medicament Invalid Prix ==========
+2026-01-19 10:32:13 - INFO - ========== TC-037: Edit Medicament ==========
+2026-01-19 10:32:13 - INFO - ✅ TC-037 SKIPPED
+2026-01-19 10:32:24 - INFO - ========== TC-038: Delete Medicament ==========
+2026-01-19 10:32:24 - INFO - ✅ TC-038 SKIPPED
+2026-01-19 10:32:34 - INFO - ========== TC-039: Display Ordonnances List ==========
+2026-01-19 10:32:38 - INFO - ✅ TC-039 PASSED: Liste ordonnances affichée
+2026-01-19 10:32:48 - INFO - ========== TC-040: Create Ordonnance Complete ==========
+2026-01-19 10:32:52 - INFO - ✅ TC-040 SKIPPED: Création complète nécessite données pré-existantes
+2026-01-19 10:33:02 - INFO - ========== TC-041: Create Ordonnance Without Patient ==========
+2026-01-19 10:33:28 - INFO - ========== TC-042: Add Ligne Quantity Valid ==========
+2026-01-19 10:33:28 - INFO - ✅ TC-042 SKIPPED: Requiert ordonnance existante
+2026-01-19 10:33:38 - INFO - ========== TC-043: Add Ligne Quantity Zero ==========
+2026-01-19 10:33:54 - INFO - ========== TC-044: Add Ligne Quantity Negative ==========
+2026-01-19 10:34:09 - INFO - ========== TC-045: Delete Ligne Ordonnance ==========
+2026-01-19 10:34:09 - INFO - ✅ TC-045 SKIPPED
+2026-01-19 10:34:20 - INFO - ========== TC-046: View Ordonnance Details ==========
+2026-01-19 10:34:20 - INFO - ✅ TC-046 SKIPPED
+2026-01-19 10:34:30 - INFO - ========== TC-047: Edit Ordonnance ==========
+2026-01-19 10:34:30 - INFO - ✅ TC-047 SKIPPED
+2026-01-19 10:34:41 - INFO - ========== TC-048: Delete Ordonnance ==========
+2026-01-19 10:34:41 - INFO - ✅ TC-048 SKIPPED
+2026-01-19 10:34:51 - INFO - ========== TC-049: Display Stocks List ==========
+2026-01-19 10:34:55 - INFO - ✅ TC-049 PASSED: Liste stocks affichée
+2026-01-19 10:35:05 - INFO - ========== TC-050: Create Stock Valid ==========
+2026-01-19 10:35:17 - INFO - ========== TC-051: Create Stock Negative Quantity ==========
+2026-01-19 10:35:28 - INFO - ========== TC-052: Edit Stock ==========
+2026-01-19 10:35:28 - INFO - ✅ TC-052 SKIPPED
+2026-01-19 10:35:39 - INFO - ========== TC-053: Delete Stock ==========
+2026-01-19 10:35:39 - INFO - ✅ TC-053 SKIPPED
+2026-01-19 10:35:50 - INFO - ========== TC-054: Performance Patients Load ==========
+2026-01-19 10:36:01 - INFO - ========== TC-055: Performance Ordonnances Load ==========
+2026-01-19 10:36:05 - INFO - Temps de chargement Ordonnances: 3.51s
+2026-01-19 10:36:05 - WARNING - ⚠️ TC-055: 3.51s >= 2s
+2026-01-19 10:36:15 - INFO - ========== TC-056: Performance Medicaments Load ==========
+2026-01-19 10:36:19 - INFO - Temps de chargement Médicaments: 3.10s
+2026-01-19 10:36:19 - WARNING - ⚠️ TC-056: 3.10s >= 2s
+2026-01-19 10:36:29 - INFO - ========== TC-057: Compatibility Chrome ==========
+2026-01-19 10:36:29 - INFO - ✅ TC-057 PASSED: Test exécuté sur chrome
+2026-01-19 10:36:39 - INFO - ========== TC-058: Compatibility Firefox ==========
+2026-01-19 10:36:39 - INFO - ✅ TC-058 SKIPPED: Firefox tests nécessitent conftest config
+2026-01-19 10:36:50 - INFO - ========== TC-059: Security SQL Injection ==========
+2026-01-19 10:37:13 - INFO - ========== TC-060: Accessibility WCAG ==========
+2026-01-19 10:37:13 - INFO - ✅ TC-060 SKIPPED: Tests accessibilité nécessitent axe-core
+2026-01-19 10:37:18 - INFO - ========== TC-061: API POST Login ==========
+2026-01-19 10:37:19 - ERROR - ❌ TC-061 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Account/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:24 - INFO - ========== TC-062: API GET Patients ==========
+2026-01-19 10:37:25 - ERROR - ❌ TC-062 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:30 - INFO - ========== TC-063: API POST Patients ==========
+2026-01-19 10:37:31 - ERROR - ❌ TC-063 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:36 - INFO - ========== TC-064: API GET Medecins ==========
+2026-01-19 10:37:37 - ERROR - ❌ TC-064 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medecins (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:42 - INFO - ========== TC-065: API GET Medicaments ==========
+2026-01-19 10:37:42 - ERROR - ❌ TC-065 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medicaments (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:48 - INFO - ========== TC-066: API GET Ordonnances ==========
+2026-01-19 10:37:48 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 10:37:53 - INFO - ========== TC-067: API POST Ordonnances ==========
+2026-01-19 10:37:54 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:15:42 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 11:15:42 - INFO - ✅ TC-007 PASSED
+2026-01-19 11:15:53 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 11:15:53 - INFO - ✅ TC-008 PASSED
+2026-01-19 11:16:03 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 11:16:03 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 11:16:13 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 11:16:13 - INFO - ✅ TC-007 PASSED
+2026-01-19 11:16:23 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 11:16:23 - INFO - ✅ TC-008 PASSED
+2026-01-19 11:16:34 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 11:16:34 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 11:16:44 - INFO - ========== TC-010: Display Patients List ==========
+2026-01-19 11:16:55 - INFO - ========== TC-011: Create Patient Valid ==========
+2026-01-19 11:17:18 - INFO - ========== TC-012: Create Patient Empty Nom ==========
+2026-01-19 11:17:42 - INFO - ========== TC-013: Invalid CIN ==========
+2026-01-19 11:18:06 - INFO - ========== TC-014: Edit Patient ==========
+2026-01-19 11:18:06 - INFO - ✅ TC-014 SKIPPED: Modification non testée
+2026-01-19 11:18:16 - INFO - ========== TC-015: Delete Patient ==========
+2026-01-19 11:18:38 - INFO - ========== TC-016: View Details ==========
+2026-01-19 11:18:38 - INFO - ✅ TC-016 SKIPPED
+2026-01-19 11:18:49 - INFO - ========== TC-017: Display Medecins List ==========
+2026-01-19 11:18:52 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 11:19:03 - INFO - ========== TC-018: Create Medecin Valid ==========
+2026-01-19 11:19:14 - INFO - ========== TC-019: Create Medecin Empty Nom ==========
+2026-01-19 11:19:26 - INFO - ========== TC-020: Edit Medecin ==========
+2026-01-19 11:19:26 - INFO - ✅ TC-020 SKIPPED: Modification non testée
+2026-01-19 11:19:36 - INFO - ========== TC-021: Delete Medecin ==========
+2026-01-19 11:19:36 - INFO - ✅ TC-021 SKIPPED: Suppression requiert confirmation modal
+2026-01-19 11:19:46 - INFO - ========== TC-022: View Medecin Details ==========
+2026-01-19 11:19:46 - INFO - ✅ TC-022 SKIPPED
+2026-01-19 11:19:56 - INFO - ========== TC-023: Display Pharmaciens List ==========
+2026-01-19 11:20:00 - INFO - ✅ TC-023 PASSED: Liste pharmaciens affichée
+2026-01-19 11:20:10 - INFO - ========== TC-024: Create Pharmacien Valid ==========
+2026-01-19 11:20:21 - INFO - ========== TC-025: Create Pharmacien Empty Field ==========
+2026-01-19 11:20:33 - INFO - ========== TC-026: Edit Pharmacien ==========
+2026-01-19 11:20:33 - INFO - ✅ TC-026 SKIPPED
+2026-01-19 11:20:43 - INFO - ========== TC-027: Delete Pharmacien ==========
+2026-01-19 11:20:43 - INFO - ✅ TC-027 SKIPPED
+2026-01-19 11:20:53 - INFO - ========== TC-028: Display Pharmacies List ==========
+2026-01-19 11:20:56 - INFO - ✅ TC-028 PASSED: Liste pharmacies affichée
+2026-01-19 11:21:07 - INFO - ========== TC-029: Create Pharmacie Valid ==========
+2026-01-19 11:21:18 - INFO - ========== TC-030: Create Pharmacie Empty Field ==========
+2026-01-19 11:21:30 - INFO - ========== TC-031: Edit Pharmacie ==========
+2026-01-19 11:21:30 - INFO - ✅ TC-031 SKIPPED
+2026-01-19 11:21:40 - INFO - ========== TC-032: Delete Pharmacie ==========
+2026-01-19 11:21:40 - INFO - ✅ TC-032 SKIPPED
+2026-01-19 11:21:51 - INFO - ========== TC-033: Display Medicaments List ==========
+2026-01-19 11:21:54 - INFO - ✅ TC-033 PASSED: 2 médicaments affichés
+2026-01-19 11:22:04 - INFO - ========== TC-034: Create Medicament Valid ==========
+2026-01-19 11:22:15 - INFO - ========== TC-035: Create Medicament Empty Nom ==========
+2026-01-19 11:22:27 - INFO - ========== TC-036: Create Medicament Invalid Prix ==========
+2026-01-19 11:22:39 - INFO - ========== TC-037: Edit Medicament ==========
+2026-01-19 11:22:39 - INFO - ✅ TC-037 SKIPPED
+2026-01-19 11:22:49 - INFO - ========== TC-038: Delete Medicament ==========
+2026-01-19 11:22:49 - INFO - ✅ TC-038 SKIPPED
+2026-01-19 11:22:59 - INFO - ========== TC-039: Display Ordonnances List ==========
+2026-01-19 11:23:02 - INFO - ✅ TC-039 PASSED: Liste ordonnances affichée
+2026-01-19 11:23:13 - INFO - ========== TC-040: Create Ordonnance Complete ==========
+2026-01-19 11:23:17 - INFO - ✅ TC-040 SKIPPED: Création complète nécessite données pré-existantes
+2026-01-19 11:23:27 - INFO - ========== TC-041: Create Ordonnance Without Patient ==========
+2026-01-19 11:23:53 - INFO - ========== TC-042: Add Ligne Quantity Valid ==========
+2026-01-19 11:23:53 - INFO - ✅ TC-042 SKIPPED: Requiert ordonnance existante
+2026-01-19 11:24:03 - INFO - ========== TC-043: Add Ligne Quantity Zero ==========
+2026-01-19 11:24:17 - INFO - ========== TC-044: Add Ligne Quantity Negative ==========
+2026-01-19 11:24:33 - INFO - ========== TC-045: Delete Ligne Ordonnance ==========
+2026-01-19 11:24:33 - INFO - ✅ TC-045 SKIPPED
+2026-01-19 11:24:43 - INFO - ========== TC-046: View Ordonnance Details ==========
+2026-01-19 11:24:43 - INFO - ✅ TC-046 SKIPPED
+2026-01-19 11:24:53 - INFO - ========== TC-047: Edit Ordonnance ==========
+2026-01-19 11:24:53 - INFO - ✅ TC-047 SKIPPED
+2026-01-19 11:25:03 - INFO - ========== TC-048: Delete Ordonnance ==========
+2026-01-19 11:25:03 - INFO - ✅ TC-048 SKIPPED
+2026-01-19 11:25:13 - INFO - ========== TC-049: Display Stocks List ==========
+2026-01-19 11:25:16 - INFO - ✅ TC-049 PASSED: Liste stocks affichée
+2026-01-19 11:25:27 - INFO - ========== TC-050: Create Stock Valid ==========
+2026-01-19 11:25:39 - INFO - ========== TC-051: Create Stock Negative Quantity ==========
+2026-01-19 11:25:50 - INFO - ========== TC-052: Edit Stock ==========
+2026-01-19 11:25:50 - INFO - ✅ TC-052 SKIPPED
+2026-01-19 11:26:01 - INFO - ========== TC-053: Delete Stock ==========
+2026-01-19 11:26:01 - INFO - ✅ TC-053 SKIPPED
+2026-01-19 11:26:06 - INFO - ========== TC-061: API POST Login ==========
+2026-01-19 11:26:07 - ERROR - ❌ TC-061 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Account/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:12 - INFO - ========== TC-062: API GET Patients ==========
+2026-01-19 11:26:12 - ERROR - ❌ TC-062 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:17 - INFO - ========== TC-063: API POST Patients ==========
+2026-01-19 11:26:18 - ERROR - ❌ TC-063 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:23 - INFO - ========== TC-064: API GET Medecins ==========
+2026-01-19 11:26:24 - ERROR - ❌ TC-064 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medecins (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:29 - INFO - ========== TC-065: API GET Medicaments ==========
+2026-01-19 11:26:30 - ERROR - ❌ TC-065 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medicaments (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:35 - INFO - ========== TC-066: API GET Ordonnances ==========
+2026-01-19 11:26:35 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 11:26:40 - INFO - ========== TC-067: API POST Ordonnances ==========
+2026-01-19 11:26:41 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:52:58 - INFO - ========== TC-061: API POST Login ==========
+2026-01-19 20:52:58 - ERROR - ❌ TC-061 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Account/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:52:58 - INFO - ========== TC-062: API GET Patients ==========
+2026-01-19 20:52:59 - ERROR - ❌ TC-062 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:52:59 - INFO - ========== TC-063: API POST Patients ==========
+2026-01-19 20:52:59 - ERROR - ❌ TC-063 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:52:59 - INFO - ========== TC-064: API GET Medecins ==========
+2026-01-19 20:52:59 - ERROR - ❌ TC-064 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medecins (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:52:59 - INFO - ========== TC-065: API GET Medicaments ==========
+2026-01-19 20:52:59 - ERROR - ❌ TC-065 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medicaments (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:53:00 - INFO - ========== TC-066: API GET Ordonnances ==========
+2026-01-19 20:53:00 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:53:00 - INFO - ========== TC-067: API POST Ordonnances ==========
+2026-01-19 20:53:00 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:27 - INFO - ========== TC-061: API POST Login ==========
+2026-01-19 20:55:27 - ERROR - ❌ TC-061 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:27 - INFO - ========== TC-062: API GET Patients ==========
+2026-01-19 20:55:27 - ERROR - ❌ TC-062 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:27 - INFO - ========== TC-063: API POST Patients ==========
+2026-01-19 20:55:28 - ERROR - ❌ TC-063 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Patients (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:28 - INFO - ========== TC-064: API GET Medecins ==========
+2026-01-19 20:55:28 - ERROR - ❌ TC-064 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medecins (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:28 - INFO - ========== TC-065: API GET Medicaments ==========
+2026-01-19 20:55:28 - ERROR - ❌ TC-065 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Medicaments (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:28 - INFO - ========== TC-066: API GET Ordonnances ==========
+2026-01-19 20:55:28 - ERROR - ❌ TC-066 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 20:55:28 - INFO - ========== TC-067: API POST Ordonnances ==========
+2026-01-19 20:55:29 - ERROR - ❌ TC-067 EXCEPTION: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Ordonnances (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 22:32:01 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 22:32:01 - INFO - ✅ TC-007 PASSED
+2026-01-19 22:32:22 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 22:32:22 - INFO - ✅ TC-008 PASSED
+2026-01-19 22:32:43 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 22:32:43 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 22:33:04 - INFO - ========== TC-007: Display Home ==========
+2026-01-19 22:33:04 - INFO - ✅ TC-007 PASSED
+2026-01-19 22:33:27 - INFO - ========== TC-008: Dashboard Pharmacien ==========
+2026-01-19 22:33:27 - INFO - ✅ TC-008 PASSED
+2026-01-19 22:33:53 - INFO - ========== TC-009: Dashboard Statistics ==========
+2026-01-19 22:33:53 - INFO - ✅ TC-009 PASSED: Statistiques visibles
+2026-01-19 22:34:16 - INFO - TC-010: Display Patients Page
+2026-01-19 22:34:57 - INFO - TC-011: Display list or empty state
+2026-01-19 22:35:50 - INFO - TC-012: Navigate to Create Patient
+2026-01-19 22:36:33 - INFO - TC-013: View Patient Details
+2026-01-19 22:37:26 - INFO - TC-014: Edit Patient Navigation
+2026-01-19 22:39:52 - INFO - TC-017: Display Medecins List
+2026-01-19 22:39:54 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-19 22:40:32 - INFO - TC-018: Create Medecin Valid
+2026-01-19 22:41:16 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-19 22:41:31 - ERROR - ❌ TC-019 FAILED: Form submitted with empty nom
+2026-01-19 22:42:14 - INFO - TC-020: Edit Medecin SKIPPED
+2026-01-19 22:42:55 - INFO - TC-021: Delete Medecin SKIPPED
+2026-01-19 22:43:36 - INFO - TC-022: View Medecin Details SKIPPED
+2026-01-19 22:44:13 - INFO - ========== TC-023: Display Pharmaciens List ==========
+2026-01-19 22:44:17 - INFO - ✅ TC-023 PASSED: Liste pharmaciens affichée
+2026-01-19 22:44:40 - INFO - ========== TC-024: Create Pharmacien Valid ==========
+2026-01-19 22:45:03 - INFO - ========== TC-025: Create Pharmacien Empty Field ==========
+2026-01-19 22:45:32 - INFO - ========== TC-026: Edit Pharmacien ==========
+2026-01-19 22:45:32 - INFO - ✅ TC-026 SKIPPED
+2026-01-19 22:45:54 - INFO - ========== TC-027: Delete Pharmacien ==========
+2026-01-19 22:45:54 - INFO - ✅ TC-027 SKIPPED
+2026-01-19 22:46:14 - INFO - ========== TC-028: Display Pharmacies List ==========
+2026-01-19 22:46:18 - INFO - ✅ TC-028 PASSED: Liste pharmacies affichée
+2026-01-19 22:46:43 - INFO - ========== TC-029: Create Pharmacie Valid ==========
+2026-01-19 22:47:06 - INFO - ========== TC-030: Create Pharmacie Empty Field ==========
+2026-01-19 22:47:28 - INFO - ========== TC-031: Edit Pharmacie ==========
+2026-01-19 22:47:28 - INFO - ✅ TC-031 SKIPPED
+2026-01-19 22:52:56 - INFO - ========== TC-054: Performance Patients Load ==========
+2026-01-19 22:53:19 - INFO - ========== TC-055: Performance Ordonnances Load ==========
+2026-01-19 22:53:23 - INFO - Temps de chargement Ordonnances: 3.36s
+2026-01-19 22:53:23 - WARNING - ⚠️ TC-055: 3.36s >= 2s
+2026-01-19 22:53:45 - INFO - ========== TC-056: Performance Medicaments Load ==========
+2026-01-19 22:53:48 - INFO - Temps de chargement Médicaments: 3.57s
+2026-01-19 22:53:48 - WARNING - ⚠️ TC-056: 3.57s >= 2s
+2026-01-19 22:54:14 - INFO - ========== TC-057: Compatibility Chrome ==========
+2026-01-19 22:54:14 - INFO - ✅ TC-057 PASSED: Test exécuté sur chrome
+2026-01-19 22:54:37 - INFO - ========== TC-058: Compatibility Firefox ==========
+2026-01-19 22:54:37 - INFO - ✅ TC-058 SKIPPED: Firefox tests nécessitent conftest config
+2026-01-19 22:55:01 - INFO - ========== TC-059: Security SQL Injection ==========
+2026-01-19 22:55:27 - INFO - ========== TC-060: Accessibility WCAG ==========
+2026-01-19 22:55:27 - INFO - ✅ TC-060 SKIPPED: Tests accessibilité nécessitent axe-core ou équivalent
+2026-01-19 22:55:51 - INFO - ========== TC-061: Security XSS Medicament Name ==========
+2026-01-19 22:55:55 - INFO - 🔐 Initialisation session authentifiée
+2026-01-19 22:55:55 - ERROR - ❌ Auth: HTTPSConnectionPool(host='localhost', port=7087): Max retries exceeded with url: /api/Account/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)')))
+2026-01-19 22:55:55 - INFO - ========== TC-061: POST /api/Account/login ==========
+2026-01-19 22:55:55 - INFO - ========== TC-Account-Register ==========
+2026-01-19 22:55:56 - INFO - ========== TC-062: GET /api/Patients ==========
+2026-01-19 22:55:56 - INFO - ========== TC-063: POST /api/Patients ==========
+2026-01-19 22:55:56 - INFO - ========== TC-Patients-GetById ==========
+2026-01-19 22:55:56 - INFO - ========== TC-Patients-Count ==========
+2026-01-19 22:55:57 - INFO - ========== TC-Patients-Update ==========
+2026-01-19 22:55:57 - INFO - ========== TC-Patients-Delete ==========
+2026-01-19 22:55:57 - INFO - ========== TC-064: GET /api/Medecins ==========
+2026-01-19 22:55:58 - INFO - ========== TC-Medecins-Create ==========
+2026-01-19 22:55:58 - INFO - ========== TC-Medecins-GetById ==========
+2026-01-19 22:55:58 - INFO - ========== TC-Medecins-Update ==========
+2026-01-19 22:55:58 - INFO - ========== TC-Medecins-Delete ==========
+2026-01-19 22:55:59 - INFO - ========== TC-065: GET /api/Medicaments ==========
+2026-01-19 22:55:59 - INFO - ========== TC-Medicaments-Create ==========
+2026-01-19 22:55:59 - INFO - ========== TC-Medicaments-GetById ==========
+2026-01-19 22:56:00 - INFO - ========== TC-Medicaments-Update ==========
+2026-01-19 22:56:00 - INFO - ========== TC-Medicaments-Delete ==========
+2026-01-19 22:56:00 - INFO - ========== TC-066: GET /api/Ordonnances ==========
+2026-01-19 22:56:01 - INFO - ========== TC-067: POST /api/Ordonnances ==========
+2026-01-19 22:56:01 - INFO - ========== TC-Ordonnances-GetById ==========
+2026-01-19 22:56:01 - INFO - ========== TC-Ordonnances-ByPharmacien ==========
+2026-01-19 22:56:01 - INFO - ========== TC-Ordonnances-Update ==========
+2026-01-19 22:56:02 - INFO - ========== TC-Ordonnances-Delete ==========
+2026-01-19 22:56:02 - INFO - ========== TC-Pharmaciens-Get ==========
+2026-01-19 22:56:02 - INFO - ========== TC-Pharmaciens-Create ==========
+2026-01-19 22:56:03 - INFO - ========== TC-Pharmaciens-GetById ==========
+2026-01-19 22:56:03 - INFO - ========== TC-Pharmaciens-Me ==========
+2026-01-19 22:56:03 - INFO - ========== TC-Pharmaciens-Update ==========
+2026-01-19 22:56:03 - INFO - ========== TC-Pharmaciens-Delete ==========
+2026-01-19 22:56:04 - INFO - ========== TC-Pharmacies-Get ==========
+2026-01-19 22:56:04 - INFO - ========== TC-Pharmacies-Create ==========
+2026-01-19 22:56:04 - INFO - ========== TC-Pharmacies-GetById ==========
+2026-01-19 22:56:05 - INFO - ========== TC-Pharmacies-Update ==========
+2026-01-19 22:56:05 - INFO - ========== TC-Pharmacies-Delete ==========
+2026-01-19 22:56:05 - INFO - ========== TC-Stocks-Get ==========
+2026-01-19 22:56:05 - INFO - ========== TC-Stocks-Create ==========
+2026-01-19 22:56:06 - INFO - ========== TC-Stocks-ByPharmacie ==========
+2026-01-19 22:56:06 - INFO - ========== TC-Stocks-Update ==========
+2026-01-19 22:56:06 - INFO - ========== TC-Stocks-Delete ==========
+2026-01-19 22:56:07 - INFO - ========== TC-HistoriquesMedicaments ==========
+2026-01-19 22:56:08 - INFO - ========== TC-LignesOrdonnance ==========
+2026-01-19 22:56:10 - INFO - ========== TC-SuivisOrdonnance ==========
+2026-01-19 22:56:11 - INFO - ========== TC-WeatherForecast ==========
+2026-01-19 22:56:13 - INFO - 🔓 Session fermée
