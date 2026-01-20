@@ -1,6 +1,5 @@
 {
   "tests/test_003_patients.py::Test_003_Patients::test_TC011_create_patient_valid": true,
-  "tests/test_004_medecins.py::Test_004_Medecins::test_TC018_create_medecin_valid": true,
   "tests/test_004_medecins.py::Test_004_Medecins::test_TC019_create_medecin_empty_nom": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC023_display_pharmaciens_list": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC024_create_pharmacien_valid": true,
@@ -68,10 +67,6 @@
   "tests/test_011_api.py::Test_011_API::test_TC_lignes_ordonnance": true,
   "tests/test_011_api.py::Test_011_API::test_TC_suivis_ordonnance": true,
   "tests/test_011_api.py::Test_011_API::test_TC_weather_forecast": true,
-  "tests/test_004_medecins.py::Test_004_Medecins::test_TC017_display_medecins_list": true,
-  "tests/test_004_medecins.py::Test_004_Medecins::test_TC020_edit_medecin": true,
-  "tests/test_004_medecins.py::Test_004_Medecins::test_TC021_delete_medecin": true,
-  "tests/test_004_medecins.py::Test_004_Medecins::test_TC022_view_medecin_details": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC026_edit_pharmacien": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC027_delete_pharmacien": true
 }

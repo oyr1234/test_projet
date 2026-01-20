@@ -54,3 +54,12 @@
 2026-01-19 20:37:22 - INFO - TC-020: Edit Medecin SKIPPED
 2026-01-19 20:37:59 - INFO - TC-021: Delete Medecin SKIPPED
 2026-01-19 20:38:37 - INFO - TC-022: View Medecin Details SKIPPED
+2026-01-20 16:22:26 - INFO - TC-017: Display Medecins List
+2026-01-20 16:22:29 - INFO - ✅ TC-017 PASSED: 2 médecins affichés
+2026-01-20 16:23:08 - INFO - TC-018: Create Medecin Valid
+2026-01-20 16:23:15 - INFO - ✅ TC-018 PASSED: Médecin créé
+2026-01-20 16:23:54 - INFO - TC-019: Create Medecin Empty Nom
+2026-01-20 16:24:10 - ERROR - ❌ TC-019 FAILED: Form submitted with empty nom
+2026-01-20 16:24:50 - INFO - TC-020: Edit Medecin SKIPPED
+2026-01-20 16:25:28 - INFO - TC-021: Delete Medecin SKIPPED
+2026-01-20 16:26:07 - INFO - TC-022: View Medecin Details SKIPPED
