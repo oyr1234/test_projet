@@ -29,6 +29,15 @@ class Test_006_Pharmacies:
         yield
         
         self.driver.close()
+    @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+    def pytest_runtest_makereport(self, item, call):
+        outcome = yield
+        rep = outcome.get_result()
+        if rep.when == "call" and rep.failed:
+            test_name = item.name
+            filepath = f"./Screenshots/{test_name}.png"
+            self.driver.save_screenshot(filepath)
+            print(f"💾 Screenshot saved: {filepath}")
     
     @pytest.mark.P0
     def test_TC028_display_pharmacies_list(self):
@@ -45,7 +54,6 @@ class Test_006_Pharmacies:
         
         if pharmaciesPage.is_table_displayed():
             self.logger.log_info("✅ TC-028 PASSED: Liste pharmacies affichée")
-            pharmaciesPage.take_screenshot("TC028_success")
             assert True
         else:
             self.logger.log_error("❌ TC-028 FAILED")
@@ -69,7 +77,8 @@ class Test_006_Pharmacies:
         random_id = random.randint(1000, 9999)
         pharmaciesPage.create_pharmacie(
             nom=f"Pharmacie Test {random_id}",
-            adresse=f"Avenue Test {random_id}, Tunis"
+            adresse=f"Avenue Test {random_id}, Tunis",
+            telephone=f"2541{random_id}"
         )
         
         sleep(2)
@@ -95,7 +104,7 @@ class Test_006_Pharmacies:
         pharmaciesPage.navigate_to_pharmacies()
         
         pharmaciesPage.click_create_pharmacie()
-        pharmaciesPage.create_pharmacie(nom="", adresse="Test")
+        pharmaciesPage.create_pharmacie(nom="", adresse="Test", telephone="25412365")
         
         sleep(2)
         

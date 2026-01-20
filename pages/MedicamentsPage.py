@@ -4,20 +4,18 @@ from time import sleep
 
 class MedicamentsPage(BasePage):
     """Page Object Model pour Médicaments"""
-    
-    MENU_MEDICAMENTS = (By.LINK_TEXT, "Médicaments")
-    TABLE_MEDICAMENTS = (By.TAG_NAME, "table")
+    MENU_MEDICAMENTS = (By.XPATH, "//a[normalize-space()='Médicaments']")
+    TABLE_MEDICAMENTS = (By.XPATH, "//div[@class='container mt-4']")
     TABLE_ROWS = (By.XPATH, "//table/tbody/tr")
-    BUTTON_CREATE = (By.XPATH, "//button[contains(text(),'Créer')]")
+    BUTTON_CREATE = (By.XPATH, "//button[normalize-space()='Créer Médicament']")
+    INPUT_NOM = (By.XPATH, "//div[@class='card shadow-sm']//div[1]//input[1]")
+    INPUT_DESCRIPTION = (By.XPATH, "//div[@class='card shadow-sm']//div[2]//input[1]")
+    INPUT_PRIX = (By.XPATH, "//div[@class='card shadow-sm']//div[3]//input[1]")
+    INPUT_REFERENCE = (By.XPATH, "//div[@class='card shadow-sm']//div[4]//input[1]")
+    BUTTON_SUBMIT = (By.XPATH, "//button[normalize-space()='Create Medicament']")
     
-    INPUT_NOM = (By.ID, "nom")
-    INPUT_DESCRIPTION = (By.ID, "description")
-    INPUT_PRIX = (By.ID, "prix")
-    INPUT_REFERENCE = (By.ID, "reference")
-    BUTTON_SUBMIT = (By.XPATH, "//button[contains(text(),'Create')]")
-    
-    BUTTON_EDIT_FIRST = (By.XPATH, "(//button[contains(text(),'Edit')])[1]")
-    BUTTON_DELETE_FIRST = (By.XPATH, "(//button[contains(text(),'Supprimer')])[1]")
+    BUTTON_EDIT_FIRST = (By.XPATH, "//tbody/tr[1]/td[5]/button[2]")
+    BUTTON_DELETE_FIRST = (By.XPATH, "//tbody/tr[1]/td[5]/button[1]")
     
     def __init__(self, driver):
         super().__init__(driver)

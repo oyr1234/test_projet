@@ -5,16 +5,14 @@ from time import sleep
 
 class StocksPage(BasePage):
     """Page Object Model pour Stocks Médicaments"""
-    
-    MENU_STOCKS = (By.LINK_TEXT, "Stocks médicaments")
+    MENU_STOCKS = (By.XPATH, "//a[normalize-space()='Stocks médicaments']")
     TABLE_STOCKS = (By.TAG_NAME, "table")
-    BUTTON_CREATE = (By.XPATH, "//button[contains(text(),'Créer')]")
-    
-    SELECT_MEDICAMENT = (By.ID, "medicament")
-    SELECT_PHARMACIE = (By.ID, "pharmacie")
-    INPUT_QUANTITE = (By.ID, "quantite")
-    INPUT_DATE_EXPIRATION = (By.ID, "dateExpiration")
-    BUTTON_SUBMIT = (By.XPATH, "//button[contains(text(),'Create')]")
+    BUTTON_CREATE = (By.XPATH, "//button[normalize-space()='Créer Stock']") 
+    SELECT_MEDICAMENT = (By.XPATH, "//div[@class='card-body']//div[2]//select[1]")
+    SELECT_PHARMACIE = (By.XPATH, "//div[@class='card shadow-sm']//div[1]//select[1]")
+    INPUT_QUANTITE = (By.XPATH, "//div[3]//input[1]")
+    INPUT_SEUIL = (By.XPATH, "//div[4]//input[1]")
+    BUTTON_SUBMIT = (By.XPATH, "//button[normalize-space()='Créer']")
     
     def __init__(self, driver):
         super().__init__(driver)
@@ -30,7 +28,7 @@ class StocksPage(BasePage):
         self.click_element(self.BUTTON_CREATE)
         sleep(1)
     
-    def create_stock(self, medicament_index, pharmacie_index, quantite, date_expiration):
+    def create_stock(self, medicament_index, pharmacie_index, quantite, seuil):
         select_med = Select(self.find_element(self.SELECT_MEDICAMENT))
         select_med.select_by_index(medicament_index)
         
@@ -38,6 +36,6 @@ class StocksPage(BasePage):
         select_pharma.select_by_index(pharmacie_index)
         
         self.send_keys_to_element(self.INPUT_QUANTITE, str(quantite))
-        self.send_keys_to_element(self.INPUT_DATE_EXPIRATION, date_expiration)
+        self.send_keys_to_element(self.INPUT_SEUIL, str(seuil))
         self.click_element(self.BUTTON_SUBMIT)
         sleep(2)

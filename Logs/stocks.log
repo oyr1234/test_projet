@@ -28,3 +28,6 @@
 2026-01-19 15:54:11 - INFO - ========== TC-016: View Details ==========
 2026-01-19 15:54:11 - INFO - ✅ TC-016 SKIPPED
 2026-01-19 15:54:23 - INFO - ========== TC-017: Display Medecins List ==========
+2026-01-20 20:33:14 - INFO - ========== TC-049: Display Stocks List ==========
+2026-01-20 20:33:38 - INFO - ========== TC-050: Create Stock Valid ==========
+2026-01-20 20:34:00 - INFO - ========== TC-051: Create Stock Negative Quantity ==========

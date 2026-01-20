@@ -4,7 +4,6 @@
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC023_display_pharmaciens_list": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC024_create_pharmacien_valid": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC025_create_pharmacien_empty_field": true,
-  "tests/test_006_pharmacies.py::Test_006_Pharmacies::test_TC028_display_pharmacies_list": true,
   "tests/test_006_pharmacies.py::Test_006_Pharmacies::test_TC029_create_pharmacie_valid": true,
   "tests/test_006_pharmacies.py::Test_006_Pharmacies::test_TC030_create_pharmacie_empty_field": true,
   "tests/test_007_medicaments.py::Test_007_Medicaments::test_TC033_display_medicaments_list": true,
@@ -15,7 +14,6 @@
   "tests/test_008_ordonnances.py::Test_008_Ordonnances::test_TC041_create_ordonnance_without_patient": true,
   "tests/test_008_ordonnances.py::Test_008_Ordonnances::test_TC043_add_ligne_quantity_zero": true,
   "tests/test_008_ordonnances.py::Test_008_Ordonnances::test_TC044_add_ligne_quantity_negative": true,
-  "tests/test_009_stocks.py::Test_009_Stocks::test_TC049_display_stocks_list": true,
   "tests/test_009_stocks.py::Test_009_Stocks::test_TC050_create_stock_valid": true,
   "tests/test_009_stocks.py::Test_009_Stocks::test_TC051_create_stock_negative_quantity": true,
   "tests/test_010_non_functional.py::Test_010_NonFunctional::test_TC054_performance_patients_load_time": true,
@@ -29,7 +27,6 @@
   "tests/test_011_api.py::Test_011_API::test_TC067_api_post_ordonnances": true,
   "tests/test_003_patients.py::Test_003_Patients::test_TC016_details_modal_not_visible_by_default": true,
   "tests/test_010_non_functional.py::Test_010_NonFunctional::test_TC061_security_xss_medicament_name": true,
-  "tests/test_006_pharmacies.py::Test_006_Pharmacies::test_TC032_delete_pharmacie": true,
   "tests/test_011_api.py::Test_011_API::test_TC_account_register": true,
   "tests/test_011_api.py::Test_011_API::test_TC_patients_get_by_id": true,
   "tests/test_011_api.py::Test_011_API::test_TC_patients_count": true,
@@ -68,5 +65,6 @@
   "tests/test_011_api.py::Test_011_API::test_TC_suivis_ordonnance": true,
   "tests/test_011_api.py::Test_011_API::test_TC_weather_forecast": true,
   "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC026_edit_pharmacien": true,
-  "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC027_delete_pharmacien": true
+  "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC027_delete_pharmacien": true,
+  "tests/test_006_pharmacies.py::Test_006_Pharmacies": true
 }
