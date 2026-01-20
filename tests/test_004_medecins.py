@@ -64,7 +64,8 @@ class Test_004_Medecins:
             prenom=f"DrPrenom{rid}",
             specialite="Cardiologue",
             telephone="+21620123456",
-            email=f"dr{rid}@example.com"
+            telephone_pro="+21670123456",
+            # email=f"dr{rid}@example.com"
         )
 
         medecins.navigate_to_medecins()

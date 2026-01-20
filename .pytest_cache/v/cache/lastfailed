@@ -31,7 +31,6 @@
   "tests/test_003_patients.py::Test_003_Patients::test_TC016_details_modal_not_visible_by_default": true,
   "tests/test_010_non_functional.py::Test_010_NonFunctional::test_TC061_security_xss_medicament_name": true,
   "tests/test_006_pharmacies.py::Test_006_Pharmacies::test_TC032_delete_pharmacie": true,
-  "tests/test_011_api.py::Test_011_API": true,
   "tests/test_011_api.py::Test_011_API::test_TC_account_register": true,
   "tests/test_011_api.py::Test_011_API::test_TC_patients_get_by_id": true,
   "tests/test_011_api.py::Test_011_API::test_TC_patients_count": true,
@@ -68,5 +67,11 @@
   "tests/test_011_api.py::Test_011_API::test_TC_historiques_medicaments": true,
   "tests/test_011_api.py::Test_011_API::test_TC_lignes_ordonnance": true,
   "tests/test_011_api.py::Test_011_API::test_TC_suivis_ordonnance": true,
-  "tests/test_011_api.py::Test_011_API::test_TC_weather_forecast": true
+  "tests/test_011_api.py::Test_011_API::test_TC_weather_forecast": true,
+  "tests/test_004_medecins.py::Test_004_Medecins::test_TC017_display_medecins_list": true,
+  "tests/test_004_medecins.py::Test_004_Medecins::test_TC020_edit_medecin": true,
+  "tests/test_004_medecins.py::Test_004_Medecins::test_TC021_delete_medecin": true,
+  "tests/test_004_medecins.py::Test_004_Medecins::test_TC022_view_medecin_details": true,
+  "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC026_edit_pharmacien": true,
+  "tests/test_005_pharmaciens.py::Test_005_Pharmaciens::test_TC027_delete_pharmacien": true
 }

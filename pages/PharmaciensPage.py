@@ -16,6 +16,7 @@ class PharmaciensPage(BasePage):
     INPUT_PRENOM = (By.XPATH, "//div[@class='card-body']//div[2]//input[1]")
     INPUT_TELEPHONE = (By.XPATH, "//div[3]//input[1]")
     INPUT_EMAIL = (By.XPATH, "//main//div[5]//input")
+    INPUT_INSCRIPTION = (By.XPATH, "//div[4]//input[1]")
     BUTTON_SUBMIT = (By.XPATH, "//button[normalize-space()='Create Pharmacien']")
 
     BUTTON_EDIT_FIRST = (By.XPATH, "(//button[contains(text(),'Edit')])[1]")
@@ -35,11 +36,12 @@ class PharmaciensPage(BasePage):
         self.click_element(self.BUTTON_CREATE)
         sleep(1)
 
-    def create_pharmacien(self, nom, prenom, telephone, email):
+    def create_pharmacien(self, nom, prenom, telephone, email, inscription):
         self.send_keys_to_element(self.INPUT_NOM, nom)
         self.send_keys_to_element(self.INPUT_PRENOM, prenom)
         self.send_keys_to_element(self.INPUT_TELEPHONE, telephone)
         self.send_keys_to_element(self.INPUT_EMAIL, email)
+        self.send_keys_to_element(self.INPUT_INSCRIPTION, inscription)
         self.click_element(self.BUTTON_SUBMIT)
         sleep(2)
 
